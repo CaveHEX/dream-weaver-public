@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backgrounds.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\animated_entity.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entity.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simple_entity.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\background.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\motion.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timeline.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ressources.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{5ba01892-6895-4351-b03c-b7c2e5dbe71c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\header">
+      <UniqueIdentifier>{76160ab2-a2fe-4395-adce-6849b5962b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src">
+      <UniqueIdentifier>{24394afd-4860-402e-9184-bbe655038bb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backgrounds.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\animated_entity.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entity.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simple_entity.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\background.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\motion.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timeline.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ressources.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
