@@ -27,7 +27,7 @@ M : Start / Stop the recording in /out/movie/
 ## Scene
 A scene is composed of a background, and a collection of entities. You can control the number of entity and additional behaviors in ```scene_t```.
 
-## Ressources
+## Resources (flyweight design pattern)
 ```ressources_t``` is in charge of gathering all the assets provided in the input folders. It acts as an interface to obtain references to the assets, that way we make sure that every image is only loaded once in memory.
 The assets aren't all loaded at launch, only gathered in a collection of ```ressource_t```. It is only when we ask to use an asset for the first that that the associated images will be loaded into the memory.
 This creates the artefact that the program freezes in-between each frame - But that is fine as this is intended to batch a lot of renders, and not to act as a real-time engine.
